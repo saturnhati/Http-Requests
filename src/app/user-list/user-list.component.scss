@@ -1,0 +1,27 @@
+div {
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    margin: {
+      left: 2px;
+      right: 2px;
+    }
+    padding: {
+      top: 4px;
+      bottom: 4px;
+      left: 8px;
+      right: 8px;
+    }
+  }
+  button:hover {
+    background-color: rgb(61, 61, 61);
+  }
+  ul {
+    li {
+      font-size: 0.8rem;
+    }
+  }
+}

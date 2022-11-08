@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { from } from 'rxjs';
+import { switchMap } from 'rxjs/operators';
 import { User } from './classes/user';
 
 @Injectable({
